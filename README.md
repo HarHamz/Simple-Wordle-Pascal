@@ -16,14 +16,17 @@ To compile and run this program, you will need a Pascal compiler that supports t
 
 ## How to Use
 - Clone this repository with
+  
     ```git
     git clone https://github.com/HarHamz/Simple-Wordle-Pascal.git
     cd Simple-Wordle-Pascal
     ```
 - Compile the Program
+  
     Compile the `wordle.pas` file to run the program.
 
 
 ## Known Bugs and Flaws
 - **Limited Word Bank**: The current word list is very small (only 5 words). This makes the game repetitive and limits replayability. The word list should be expanded for a proper Wordle experience.
+- **Non-words are accepted**: There is no function to verify the user's input as a word. Any random combination of 5 letters will be accepted as a valid input.
 - **Immediate Exit on Success**: After winning, the program calls break; and terminates quickly. In many standard console environments, this causes the final "You Win!" message to flash briefly before the window closes.

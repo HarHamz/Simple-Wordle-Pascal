@@ -20,8 +20,8 @@ To compile and run this program, you will need a Pascal compiler that supports t
     git clone https://github.com/HarHamz/Simple-Wordle-Pascal.git
     cd Simple-Wordle-Pascal
     ```
-- Run the Program
-    Run the `wordle.exe` file to run the program directly.
+- Compile the Program
+    Compile the `wordle.pas` file to run the program.
 
 
 ## Known Bugs and Flaws
